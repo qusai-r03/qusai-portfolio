@@ -253,7 +253,7 @@ export default function Home() {
               <p className="hero-tagline">Through complex systems.</p>
               <p className="lede">I’m a Computer Science student building practical systems, algorithms, and interfaces at the intersection of a problem and its shortest correct path.</p>
               <div className="origin-meta"><span>CS @ Yarmouk University</span><span>Software Engineering @ 42 Irbid</span><span>Graduating January 2027</span></div>
-              <div className="origin-actions"><button className="primary-action" onClick={() => scrollToId("rydora")}>View the route <ArrowDownRight size={17} /></button><a className="secondary-action" href="/manus-storage/qusai-alrawabdah-cv_2ea5410f.pdf" download>Download résumé <ArrowDownRight size={16} /></a><a className="secondary-action" href="mailto:qusaiq891@gmail.com">Get in touch <Mail size={16} /></a></div>
+              <div className="origin-actions"><button className="primary-action" onClick={() => scrollToId("rydora")}>View the route <ArrowDownRight size={17} /></button><a className="secondary-action" href="/assets/qusai-alrawabdah-cv.pdf" download>Download résumé <ArrowDownRight size={16} /></a><a className="secondary-action" href="mailto:qusaiq891@gmail.com">Get in touch <Mail size={16} /></a></div>
             </div>
             <div className="origin-stamp"><span>Qusai_R03</span><small>FIELD NOTES<br />/ 001</small></div>
             <div className="hero-instrument" aria-label="Route instrument showing Qusai's current direction">
@@ -269,7 +269,7 @@ export default function Home() {
               <div className="instrument-coords">32.55° N&nbsp;&nbsp;35.85° E <span>//</span> IRBID</div>
             </div>
             <div className="profile-card">
-              <div className="profile-photo-wrap"><img src="/manus-storage/qusai-profile_490fb725.jpeg" alt="Portrait of Qusai Alrawabdah" /></div>
+              <div className="profile-photo-wrap"><img src="/assets/qusai-profile.jpeg" alt="Portrait of Qusai Alrawabdah" /></div>
               <div className="profile-card-meta"><span>field portrait</span><strong>Qusai_R03 / IRBID</strong></div>
               <button className="profile-about-link" onClick={() => scrollToId("about")}>About Qusai <ArrowDownRight size={10} /></button>
             </div>
@@ -278,7 +278,7 @@ export default function Home() {
         </section>
 
         <section id="about" className="section about-section">
-          <div className="about-layout"><div><span className="section-kicker">about the route / working profile</span><h2>Build it. Defend it.<br /><em>Keep moving.</em></h2><a className="cv-download" href="/manus-storage/qusai-alrawabdah-cv_2ea5410f.pdf" download><Download size={15} /> Download CV <ArrowDownRight size={14} /></a></div><div className="about-copy"><span className="section-stamp" aria-hidden="true"><strong>Qusai_R03</strong><small>profile / 2026</small></span><p>I’m a final-semester Computer Science student at Yarmouk University and a Software Engineering student at 42 Irbid. I learn by building under constraints, explaining decisions to other people, and iterating until the system is clearer than when I found it.</p><p className="about-open"><span className="status-pulse" /> Open to software engineering internships and entry-level opportunities.</p><div className="about-facts"><span><small>education</small><strong>Yarmouk University · CS</strong></span><span><small>community</small><strong>42 Irbid · Software Engineering</strong></span><span><small>graduation</small><strong>January 2027</strong></span><span><small>location</small><strong>Irbid, Jordan</strong></span></div></div></div>
+          <div className="about-layout"><div><span className="section-kicker">about the route / working profile</span><h2>Build it. Defend it.<br /><em>Keep moving.</em></h2><a className="cv-download" href="/assets/qusai-alrawabdah-cv.pdf" download><Download size={15} /> Download CV <ArrowDownRight size={14} /></a></div><div className="about-copy"><span className="section-stamp" aria-hidden="true"><strong>Qusai_R03</strong><small>profile / 2026</small></span><p>I’m a final-semester Computer Science student at Yarmouk University and a Software Engineering student at 42 Irbid. I learn by building under constraints, explaining decisions to other people, and iterating until the system is clearer than when I found it.</p><p className="about-open"><span className="status-pulse" /> Open to software engineering internships and entry-level opportunities.</p><div className="about-facts"><span><small>education</small><strong>Yarmouk University · CS</strong></span><span><small>community</small><strong>42 Irbid · Software Engineering</strong></span><span><small>graduation</small><strong>January 2027</strong></span><span><small>location</small><strong>Irbid, Jordan</strong></span></div></div></div>
         </section>
 
         <section id="training" className="section waypoint-section training-section">
