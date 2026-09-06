@@ -50,6 +50,7 @@ const projects: Project[] = [
     description: "A Pygame implementation of movement, scoring, game rules, and ghost behavior.",
     stack: ["Python", "Pygame"],
     status: "completed",
+    href: "https://github.com/qusai-r03/Pac-Man",
     defense: "Draft — The difficult part was keeping several systems consistent at once: player movement, collision rules, scoring, and ghost behavior. I treated each rule as a separate piece of game state so that fixing one mechanic would not quietly break another. Replace this draft with the exact bug or mechanic I personally solved.",
     accent: "teal",
   },
@@ -62,7 +63,7 @@ const projects: Project[] = [
     status: "completed",
     defense: "Draft — I approached push_swap as a constrained pathfinding problem: the goal was not only to sort, but to reach the sorted state with a limited vocabulary of operations. I used a strategy that separates the decision of what to move from the execution of stack operations. Replace this with the exact algorithm you used, plus a real move count if you have one.",
     accent: "amber",
-    href: "https://github.com/qusai-r03",
+    href: "https://github.com/qusai-r03/Push_Swap",
   },
   {
     number: "04",
@@ -73,6 +74,7 @@ const projects: Project[] = [
     status: "completed",
     defense: "Draft — The hardest part was understanding how the services depend on each other and how container boundaries change the way you debug. I learned to treat configuration, networking, volumes, and startup order as one system rather than isolated files. Replace this with the specific service or setup issue you solved.",
     accent: "orange",
+    href: "https://github.com/qusai-r03/Inception",
   },
   {
     number: "05",
@@ -83,6 +85,7 @@ const projects: Project[] = [
     status: "completed",
     defense: "Draft — The challenge was translating a maze from a visual problem into a representation that an algorithm could inspect and solve. I focused on making the representation explicit first, then separating generation, validation, and solving so each part could be reasoned about. Replace this with the concrete algorithm or edge case you handled.",
     accent: "teal",
+    href: "https://github.com/qusai-r03/A_maze_ing",
   },
 ];
 
