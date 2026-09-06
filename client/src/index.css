@@ -219,3 +219,19 @@ body.cursor-is-link .route-cursor-trail { width: 62px; background: linear-gradie
 }
 /* Contact is intentionally link-first: no fake submit affordance remains. */
 .contact-form, .form-submit, .form-status { display: none !important; }
+
+/* Collision-proof responsive layout: keep portrait and route instrument in normal flow below 1150px. */
+@media (max-width: 1150px) {
+  .hero-instrument { position: relative; top: auto; right: auto; width: min(100%, 430px); margin: 48px 0 0 auto; transform: rotate(1.6deg); }
+  .profile-card { position: relative; top: auto; right: auto; width: 132px; margin: 18px 24px 0 auto; transform: rotate(-4deg); }
+}
+@media (max-width: 650px) {
+  .hero-instrument { width: calc(100% - 8px); margin-top: 42px; }
+  .profile-card { width: 96px; margin: 16px 0 0 auto; transform: rotate(-4deg); }
+}
+/* Project stamps live by the route rail, never on top of a thumbnail or status label. */
+.project-stamp { right: auto; left: -78px; top: 12px; }
+@media (max-width: 900px) { .project-stamp { right: auto; left: -62px; } }
+@media (max-width: 650px) { .project-stamp { display: none; } }
+/* Avoid stacking the Projects bottom padding with Instruments top padding. */
+#training + #instruments, .training-section + .instruments-section { padding-top: 0; }
